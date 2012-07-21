@@ -9,8 +9,11 @@
 * http://www.html5rocks.com/en/
 * File API https://groups.google.com/a/chromium.org/forum/?fromgroups#!topic/chromium-html5/Mm8sex10aCg
 * File API wrapper http://bgrins.github.com/filereader.js
+* File API usage example http://www.html5rocks.com/en/tutorials/file/filesystem/#toc-support
 * History API https://github.com/balupton/history.js
 * http://www.slideshare.net/ferrantes/ecmascript-5-10575898
+* Feature detection: how it works http://addyosmani.com/polyfillthehtml5gaps/slides/#71
+* audio / video player http://jplayer.org/ `jquery`
 
 ###### Testing
 * qunit http://docs.jquery.com/Qunit
@@ -27,9 +30,12 @@
 * PhantomJS `!` http://phantomjs.org/
 * PhantomJS command line keys / docs http://code.google.com/p/phantomjs/wiki/Interface#__WebPage___Object
 * Jenkins + Jasmine + PhantomJS + JSHint http://www.zendesk.com/blog/javascript-loves-ci
+* js console `!` : remote debug http://jsconsole.com/remote-debugging.html
+* Remote js debugger http://lexandera.com/aardwolf/
 
 ###### Communication / messaging
 * Cross-domain messaging http://easyxdm.net/wp/
+* http://www.slideshare.net/SlexAxton/breaking-the-cross-domain-barrier
 
 ###### Frameworks / Toolkits
 * http://amplifyjs.com/ -- store / request / pub/sub
@@ -37,10 +43,20 @@
 * http://canjs.us/
 * Bootstrap, of course http://twitter.github.com/bootstrap/components.html
 * Angular JS `MVW` http://angularjs.org/#%2Flist
+* Backbone http://documentcloud.github.com/backbone/
+* http://spinejs.com/
 
 ###### libs / plugins
 * Loader / spinner http://fgnass.github.com/spin.js/
 * Double suggest http://hernantz.github.com/doubleSuggest/ `jquery`
+* `keyboard` shortcuts https://github.com/madrobby/keymaster
+* `keyboard` http://keithcirkel.co.uk/jwerty/
+* favicon draw! http://makeable.github.com/Notificon/
+* js tree http://www.jstree.com/
+* Text selection http://code.google.com/p/rangy/
+* Money conversion http://josscrowcroft.github.com/money.js/
+* Micro libs http://microjs.com
+* Images loaded http://desandro.github.com/imagesloaded
 
 ###### Localization
 * http://slexaxton.github.com/Jed/
@@ -53,6 +69,15 @@
 * mouse scroll / wheel http://jsbin.com/umoyar/edit#javascript,html,live
 * `wtf` http://wtfjs.com/
 * http://mbebenita.github.com/LLJS/
+* Dev tools secrets http://www.andismith.com/blog/2011/11/25-dev-tool-secrets/
+* Light / shadow effect http://www.zachstronaut.com/posts/2012/01/17/stop-sopa-protest-template.html
+* Patterns collection http://shichuan.github.com/javascript-patterns/
+* iOS web app `example` with `cache.manifest` usage https://github.com/jed/20x20
+* Explore Chromium source code http://code.google.com/p/chromium/source/search
+* Live pages: interaction on a new level http://worrydream.com/Tangle/guide.html
+* Sharing page events with other users http://peerbind.com/
+* http://tcorral.github.com/Cutter.js/
+* Old `ie` conditional compilation http://www.javascriptkit.com/javatutors/conditionalcompile.shtml
 
 ###### Useful
 * `grunt` `!` https://github.com/cowboy/grunt
@@ -69,6 +94,19 @@
 * Live code syntax highlight and execution https://github.com/marijnh/CodeMirror2
 * Some geo data http://askgeo.com/
 * Device and Viewport Size In JavaScript http://responsejs.com/labs/dimensions `mobile`
+* Principles of Writing Consistent, Idiomatic JavaScript https://github.com/rwldrn/idiomatic.js
+* Canvas cheat sheet http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf
+* node.js auth package https://github.com/bnoguchi/everyauth
+* syntax highlight http://softwaremaniacs.org/soft/highlight/
+* node.js + nginx http://stackoverflow.com/questions/5009324/node-js-nginx-and-now
+* command line arguments parser https://github.com/visionmedia/commander.js
+* node.js specific version installer http://apptob.org/
+* url rewrite (like proxy?) https://github.com/joehewitt/express-rewrite
+* Paul Irish tutorial on using webdev console http://updates.html5rocks.com/2011/09/7-minute-videos-Javascript-Console-Protips-newish-DOM-APIs
+* Event compatibility tables http://www.quirksmode.org/dom/events/
+* Visual events http://www.sprymedia.co.uk/article/Visual+Event
+* Testing localstorage space http://arty.name/localstorage.html
+* https://developer.mozilla.org/En/HTTP_access_control#Access-Control-Allow-Origin
 
 ###### Animation
 * Cool zoom / rotate / skew effect http://janne.aukia.com/zoomooz/
@@ -79,6 +117,9 @@
 ###### Templates
 * http://jade-lang.com/ `like`
 * Templates engine chooser http://garann.github.com/template-chooser/
+* { http://mustache.github.com/
+* https://github.com/flatiron/plates
+* Firebug templates http://fbug.googlecode.com/svn/branches/firebug1.9/content/firebug/lib/domplate.js
 
 ###### Docs
 * http://espadrine.github.com/New-In-A-Spec/
@@ -95,6 +136,7 @@
 * background attachment http://people.opera.com/pepelsbey/experiments/bga/
 * can I use? http://caniuse.com/#feat=svg-css
 * `kizu` border svg http://dabblet.com/gist/2509286
+* z-index http://css-discuss.incutio.com/wiki/Overlapping_And_ZIndex
 
 ###### Animation / css3
 * box-shadow https://developer.mozilla.org/en/CSS/box-shadow
