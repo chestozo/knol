@@ -12,6 +12,16 @@
 * qunit http://docs.jquery.com/Qunit
 * hiro http://hirojs.com/ (used by `disqus`?)
 * mocha http://visionmedia.github.com/mocha / by TJ
+* jasmine http://pivotal.github.com/jasmine/
+* sinon `!` http://sinonjs.org/
+* sinon + qunit http://cjohansen.no/en/javascript/using_sinon_js_with_qunit
+* expresso http://visionmedia.github.com/expresso/
+* http://code.google.com/p/js-test-driver/
+* http://watir.com/frameworks/#rspec
+* http://google-opensource.blogspot.com/2011/09/introducing-google-js-test.html
+* http://developer.yahoo.com/blogs/ydn/posts/2011/08/javascript-unit-test-environment-jute-now-open
+* PhantomJS `!` http://phantomjs.org/
+* Jenkins + Jasmine + PhantomJS + JSHint http://www.zendesk.com/blog/javascript-loves-ci
 
 ###### Communication / messaging
 * Cross-domain messaging http://easyxdm.net/wp/
