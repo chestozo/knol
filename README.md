@@ -128,6 +128,9 @@
 ###### Performance
 * V8 Performance Tuning Tricks https://mkw.st/p/gdd11-berlin-v8-performance-tuning-tricks/#1
 
+###### Mobile
+* Bookmark that converts any site to mobile version: https://twitter.com/sindresorhus/status/212760299730763777
+
 
 ##### CSS
 * CSS Compatibility and Internet Explorer http://msdn.microsoft.com/en-us/library/cc351024%28v=vs.85%29.aspx
