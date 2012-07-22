@@ -81,7 +81,8 @@
 
 ###### Useful
 * `grunt` `!` https://github.com/cowboy/grunt
-* Presentation 3d http://lab.hakim.se/reveal-js/#/
+* Presentation 3d http://lab.hakim.se/reveal-js/#/ `slides`
+* One more super slides engine http://bartaz.github.com/impress.js/#/its `slides`
 * Conditional loader https://github.com/SlexAxton/yepnope.js
 * `example` js comparison special case testing http://jsbin.com/otopad/edit#javascript,html
 * Regexp testing http://refiddle.com/
