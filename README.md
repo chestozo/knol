@@ -14,6 +14,7 @@
 * http://www.slideshare.net/ferrantes/ecmascript-5-10575898
 * Feature detection: how it works http://addyosmani.com/polyfillthehtml5gaps/slides/#71
 * audio / video player http://jplayer.org/ `jquery`
+* http://www.htmlfivecan.com/#1
 
 ###### Testing
 * qunit http://docs.jquery.com/Qunit
