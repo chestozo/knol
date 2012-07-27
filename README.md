@@ -46,7 +46,7 @@
 * Angular JS `MVW` http://angularjs.org/#%2Flist
 * Backbone http://documentcloud.github.com/backbone/
 * http://spinejs.com/
-* Select MVC framework looking at how some task is implemented by different frameworks http://todomvc.com/
+* Select MVC framework looking at how the same task is done with the help of different frameworks http://todomvc.com/
 
 ###### libs / plugins
 * Loader / spinner http://fgnass.github.com/spin.js/
