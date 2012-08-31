@@ -145,6 +145,7 @@
 * z-index http://css-discuss.incutio.com/wiki/Overlapping_And_ZIndex
 * filters http://html5-demos.appspot.com/static/css/filters/index.html
 * native css scroll in webkit http://jsbin.com/avuvin/3
+* animation / rotation / 3d / cube / perspective http://24ways.org/2010/intro-to-css-3d-transforms
 
 ###### Animation / css3
 * box-shadow https://developer.mozilla.org/en/CSS/box-shadow
