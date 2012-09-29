@@ -13,8 +13,10 @@
 * History API https://github.com/balupton/history.js
 * http://www.slideshare.net/ferrantes/ecmascript-5-10575898
 * Feature detection: how it works http://addyosmani.com/polyfillthehtml5gaps/slides/#71
-* audio / video player http://jplayer.org/ `jquery`
+* audio / video player `jquery` http://jplayer.org/
+* `html5` `audio` `video` http://mediaelementjs.com/
 * http://www.htmlfivecan.com/#1
+* Using polyfills `html5` `X-browser` http://lojjic.github.com/html5denver-polyfills/slides.html#1
 
 ###### Testing
 * qunit http://docs.jquery.com/Qunit
@@ -156,6 +158,9 @@
 * `example` rotate image http://jsbin.com/ecibur/edit#html,live
 
 
-
 ##### HTML
 * Structure / class names / BEM http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+
+
+##### X-browser
+* IE fixes http://code.google.com/p/ie7-js/
