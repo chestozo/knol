@@ -17,6 +17,7 @@
 * `html5` `audio` `video` http://mediaelementjs.com/
 * http://www.htmlfivecan.com/#1
 * Using polyfills `html5` `X-browser` http://lojjic.github.com/html5denver-polyfills/slides.html#1
+* https://github.com/kriskowal/es5-shim `shim` `array`
 
 ###### Testing
 * qunit http://docs.jquery.com/Qunit
