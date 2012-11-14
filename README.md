@@ -1,6 +1,7 @@
 ##### js
 ###### Math / algorithms
 * Classic computer science paradigms, algorithms https://github.com/nzakas/computer-science-in-javascript -- Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript / by zakas
+* Checksum algorithm (faster than md5 but with lower insurance) http://en.wikipedia.org/wiki/Fletcher's_checksum
 
 ###### HTML5 / ES5
 * Enable html5 sectioning elements in old IE https://github.com/aFarkas/html5shiv
