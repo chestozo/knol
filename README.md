@@ -62,6 +62,7 @@
 * Money conversion http://josscrowcroft.github.com/money.js/
 * Micro libs http://microjs.com
 * Images loaded http://desandro.github.com/imagesloaded
+* Image parallax effect http://stephband.info/jparallax/
 
 ###### Localization
 * http://slexaxton.github.com/Jed/
