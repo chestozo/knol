@@ -63,6 +63,7 @@
 * Micro libs http://microjs.com
 * Images loaded http://desandro.github.com/imagesloaded
 * Image parallax effect http://stephband.info/jparallax/
+* md5 http://pajhome.org.uk/crypt/md5/md5.html
 
 ###### Localization
 * http://slexaxton.github.com/Jed/
