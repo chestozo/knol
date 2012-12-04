@@ -129,6 +129,7 @@
 * { http://mustache.github.com/
 * https://github.com/flatiron/plates
 * Firebug templates http://fbug.googlecode.com/svn/branches/firebug1.9/content/firebug/lib/domplate.js
+* http://paularmstrong.github.com/swig/docs/ inheritance
 
 ###### Docs
 * http://espadrine.github.com/New-In-A-Spec/
