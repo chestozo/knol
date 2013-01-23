@@ -1,15 +1,27 @@
 [Test](http://config.privoxy.org/show-status) privoxy status.
 
-#### Install
-* [Install guide](http://hints.macworld.com/article.php?story=20100227045756617).
-* Also I had to create user as described there.
-* Install command: `make -s install  USER=privoxy GROUP=privoxy`.
-* Create symlink `/usr/local/bin/privoxy -> /usr/local/sbin/privoxy`.
+Now you can install privoxy on Mac OS from `dmg` file from http://www.privoxy.org/.
 
-#### Run
-* `sudo privoxy /usr/local/etc/privoxy/config`
-* Set proxy in connection settings. Read more about [here](http://www.privoxy.org/user-manual/quickstart.html).
-* Do not forget to set proxy both for ethernet and for wi-fi.
+#### Config
+I have placed my configs in separate file, located `~/configs/privoxy/my.action`
+
+Add a reference in config file `/usr/local/etc/privoxy/config`:
+```
+actionsfile /Users/chestozo/configs/privoxy/my.action
+```
+
+Also I had to add `alias` section before using any alias in `my.action` config file.
+It looks like so now:
+```
+{{alias}}
++block-as-image     = +block{Blocked image request.} +handle-as-image
+
+{ +block-as-image }
+# ...
+
+{ -block }
+# ...
+```
 
 #### Hints
 * You need to escape symbols like `?`.
@@ -26,3 +38,12 @@ app.com/_index.js
 {+redirect{http://dev.app.com/testing/uploader.swf}}
 dev.app.com/swf/uploader/real.swf\?ver=
 ```
+
+#### Old version guide (3.0.17)
+* [Install guide](http://hints.macworld.com/article.php?story=20100227045756617).
+* Also I had to create user as described there.
+* Install command: `make -s install  USER=privoxy GROUP=privoxy`.
+* Create symlink `/usr/local/bin/privoxy -> /usr/local/sbin/privoxy`.
+* run: `sudo privoxy /usr/local/etc/privoxy/config`
+* Set proxy in connection settings. Read more about [here](http://www.privoxy.org/user-manual/quickstart.html).
+* Do not forget to set proxy both for ethernet and for wi-fi.
