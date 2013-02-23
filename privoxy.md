@@ -24,7 +24,7 @@ It looks like so now:
 ```
 
 #### Hints
-* You need to escape symbols like `?`.
+* You need to escape symbols like `?` (like so: `\?`).
 
 #### Examples
 1. Load dev version of script when requesting production version:
