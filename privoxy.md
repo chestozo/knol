@@ -6,13 +6,13 @@ Now you can install privoxy on Mac OS from `dmg` file from http://www.privoxy.or
 I have placed my configs in separate file, located `~/configs/privoxy/my.action`
 
 Add a reference in config file `/usr/local/etc/privoxy/config`:
-```
+```sh
 actionsfile /Users/chestozo/configs/privoxy/my.action
 ```
 
 Also I had to add `alias` section before using any alias in `my.action` config file.
 It looks like so now:
-```
+```sh
 {{alias}}
 +block-as-image     = +block{Blocked image request.} +handle-as-image
 
@@ -28,15 +28,23 @@ It looks like so now:
 
 #### Examples
 1. Load dev version of script when requesting production version:
-```
+```sh
 {+redirect{http://dev.app.com/_index.js}}
 app.com/_index.js
 ```
 
 2. Load `*.swf` file from another location:
-```
+```sh
 {+redirect{http://dev.app.com/testing/uploader.swf}}
 dev.app.com/swf/uploader/real.swf\?ver=
+```
+
+3. Redirect with rewrite (from all ports):
+
+```sh
+# http://localhost:8081/models/?_m=auth --> http://app.host/models/?_m=auth
+{+redirect{s@^.*\/models/(.*)$@http://app.host/models/$1@}}
+/models/
 ```
 
 #### Old version guide (3.0.17)
