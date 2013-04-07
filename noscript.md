@@ -2,12 +2,16 @@
 ```
 url changed
 route
-get layout
-get models to request
-request models
-create update
-update run
-update done: we have a new page state
+  FAIL: route not found
+  good route
+    get layout
+    get models to request
+    request models
+      FAIL: not enought models for page update
+      create update
+      update run
+        FAIL: update failed (no html for view?)
+        good
 
 ```
 
@@ -18,7 +22,7 @@ collect data to request
     FAIL: not enough data to perform action
   enough to request
     request models
-      good: update what needed
       FAIL: action faled { error: code, message: '' }
+      good: update what needed
 
 ```
