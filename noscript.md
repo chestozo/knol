@@ -22,9 +22,9 @@ route
 - FAIL: not enought models for page update
 - FAIL: update failed (no html for view?)
 
-Тут ничего непонятно, часть можно на `no.update`, часть на `no.page` или `no.router`...
-А вообще у нас нет прямой ссылки на `no.update`...
-Куда вешать?
+Тут ничего непонятно: часть обработчиков можно повесить на `no.update`, часть на `no.page` или `no.router`.
+А вообще у нас нет прямой ссылки на `no.update`.
+Куда вешать? Варианты:
 - router
 - page
 - view
