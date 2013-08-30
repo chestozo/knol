@@ -1,5 +1,7 @@
 [Test](http://config.privoxy.org/show-status) privoxy status.
 
+#### Install
+
 Now you can install privoxy on Mac OS from `dmg` file from http://www.privoxy.org/.
 
 #### Config
