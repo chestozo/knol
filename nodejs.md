@@ -30,6 +30,8 @@ Oneliner:
 node -e "require('http').createServer(function(req, response) { response.writeHead(302, { 'Content-Type': 'text/plain', 'Location': 'http://yandex.ru' }); response.end('Hello'); }).listen(8100);"
 ```
 
-#### 4XX
-
-#### 5XX
+#### TODO
+- 4XX
+- 5XX
+- send file back
+- CORS
