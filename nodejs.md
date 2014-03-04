@@ -15,6 +15,20 @@ node -e "require('http').createServer(function(req, response) { response.writeHe
 ```
 
 #### 3XX
+```js
+require('http').createServer(function(req, response) {
+    response.writeHead(302, {
+        'Content-Type': 'text/plain',
+        'Location': 'http://yandex.ru'
+    });
+    response.end('Hello');
+}).listen(8100);
+```
+
+Oneliner:
+```sh
+node -e "require('http').createServer(function(req, response) { response.writeHead(302, { 'Content-Type': 'text/plain', 'Location': 'http://yandex.ru' }); response.end('Hello'); }).listen(8100);"
+```
 
 #### 4XX
 
