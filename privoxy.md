@@ -1,8 +1,12 @@
 [Test](http://config.privoxy.org/show-status) privoxy status.
 
 #### Install
+`brew install`
+or
+you can download `dmg` file from http://www.privoxy.org/.
 
-Now you can install privoxy on Mac OS from `dmg` file from http://www.privoxy.org/.
+#### Uninstall
+`brew rm privoxy && brew deps privoxy | xargs brew rm`
 
 #### Config
 I have placed my configs in separate file, located `~/configs/privoxy/my.action`
