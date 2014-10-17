@@ -1,7 +1,8 @@
 ## Copy and paste for free
 
-```js
 Make http request:
+
+```js
 http_.get(url, function(res) {
     res.setEncoding('utf8');
     res.on('data', function(result) {
