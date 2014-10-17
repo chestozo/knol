@@ -1,11 +1,11 @@
 ## Copy and paste for free
 
+```js
 Make http request:
 http_.get(url, function(res) {
     res.setEncoding('utf8');
     res.on('data', function(result) {
         succeed(result);
-```js
     });
     res.on('error', function(e) {
         fail(e.message);
