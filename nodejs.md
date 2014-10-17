@@ -1,4 +1,20 @@
-### Fast servers
+## Copy and paste for free
+
+Make http request:
+http_.get(url, function(res) {
+    res.setEncoding('utf8');
+    res.on('data', function(result) {
+        succeed(result);
+```js
+    });
+    res.on('error', function(e) {
+        fail(e.message);
+    })
+});
+```
+
+## Http server
+
 Just a set of templates for fast node.js server creation for tests and debug.
 
 #### 200
