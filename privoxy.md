@@ -9,6 +9,9 @@ you can download `dmg` file from http://www.privoxy.org/.
 `brew rm privoxy && brew deps privoxy | xargs brew rm`
 
 #### Config
+NOTE for https urls I could not manage to setup a redirect.
+But there is a very nice proxy https://github.com/Kolyaj/Yaxy that can do it.
+
 I have placed my configs in separate file, located `~/configs/privoxy/my.action`
 
 Add a reference in config file `/usr/local/etc/privoxy/config`:
