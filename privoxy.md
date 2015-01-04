@@ -1,3 +1,10 @@
+NOTE for https urls privoxy has less capabilities:
+```
+This is a HTTPS URL, so the part after the "/" is ignored as Privoxy doesn't see the path for real HTTPS requests either.
+```
+But there is a very nice proxy https://github.com/Kolyaj/Yaxy that can do it.
+
+#### Privoxy status
 [Test](http://config.privoxy.org/show-status) privoxy status.
 
 #### Install
@@ -9,8 +16,6 @@ you can download `dmg` file from http://www.privoxy.org/.
 `brew rm privoxy && brew deps privoxy | xargs brew rm`
 
 #### Config
-NOTE for https urls I could not manage to setup a redirect.
-But there is a very nice proxy https://github.com/Kolyaj/Yaxy that can do it.
 
 I have placed my configs in separate file, located `~/configs/privoxy/my.action`
 
