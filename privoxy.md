@@ -1,10 +1,3 @@
-NOTE for https urls privoxy has less capabilities:
-```
-This is a HTTPS URL, so the part after the "/" is ignored as Privoxy doesn't see the path for real HTTPS requests either.
-```
-But there is a very nice proxy https://github.com/Kolyaj/Yaxy that can do it.
-
-#### Privoxy status
 [Test](http://config.privoxy.org/show-status) privoxy status.
 
 #### Install
@@ -15,11 +8,26 @@ you can download `dmg` file from http://www.privoxy.org/.
 #### Uninstall
 `brew rm privoxy && brew deps privoxy | xargs brew rm`
 
-#### Config
+#### Configuration
 
-I have placed my configs in separate file, located `~/configs/privoxy/my.action`
+I am using a combination of 2 proxies:
+- `yaxy` that is been used as a [parent proxy](http://www.privoxy.org/user-manual/config.html#FORWARDING) (because it can handle HTTPS redirects)
+- `privoxy` is the main proxy (because it has a long list of settings for blocking ads and more)
 
-Add a reference in config file `/usr/local/etc/privoxy/config`:
+NOTE for https urls privoxy has less capabilities:
+```
+This is a HTTPS URL, so the part after the "/" is ignored as Privoxy doesn't see the path for real HTTPS requests either.
+```
+But there is a very nice proxy https://github.com/Kolyaj/Yaxy that does handle https redirects nicely.
+
+Parent proxy is setup like this (in main privoxy config file):
+```sh
+forward  / 127.0.0.1:9999 # this is yaxy proxy, running on localhost port 9999
+```
+
+All additional settings I have placed in in separate file, located in my home directory `~/configs/privoxy/my.action`.
+
+Then I reference this file in the main config file `/usr/local/etc/privoxy/config`:
 ```sh
 actionsfile /Users/chestozo/configs/privoxy/my.action
 ```
