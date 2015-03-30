@@ -1,3 +1,5 @@
+
+
 ##### js
 ###### Math / algorithms
 * Classic computer science paradigms, algorithms https://github.com/nzakas/computer-science-in-javascript -- Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript / by zakas
@@ -173,3 +175,8 @@
 
 ##### X-browser
 * IE fixes http://code.google.com/p/ie7-js/
+
+##### SSH
+* Faster operations over ssh (like git pull / git push):
+  use `ControlPersist` in `~/.ssh/config`
+  via http://stackoverflow.com/questions/14170722/how-to-make-git-push-run-faster/14172981#14172981
