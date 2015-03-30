@@ -1,4 +1,30 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [js](#js)
+  - [Math / algorithms](#math--algorithms)
+  - [HTML5 / ES5](#html5--es5)
+  - [Testing](#testing)
+  - [Communication / messaging](#communication--messaging)
+  - [Frameworks / Toolkits](#frameworks--toolkits)
+  - [libs / plugins](#libs--plugins)
+  - [Localization](#localization)
+  - [Interesting](#interesting)
+  - [Useful](#useful)
+  - [Animation](#animation)
+  - [Templates](#templates)
+  - [Docs](#docs)
+  - [Performance](#performance)
+  - [Mobile](#mobile)
+  - [Tools / utils](#tools--utils)
+- [CSS](#css)
+  - [Animation / css3](#animation--css3)
+- [HTML](#html)
+- [X-browser](#x-browser)
+- [SSH](#ssh)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ##### js
 ###### Math / algorithms
