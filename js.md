@@ -7,5 +7,5 @@ odd >> 1 << 1;                              // This is how you can get a closest
 x === +x;                                   // Check whether x is a number.
 void anything;                              // => undefined
 Array(5).join('x')                          // Cool way to create a string "xxxxx". via https://clck.ru/9hDF4
-return ("00000000" + num).substr(-length);  // If you need to prefix number with zeros. via https://clck.ru/9hDF4
+("00000000" + num).substr(-length);         // If you need to prefix number with zeros. via https://clck.ru/9hDF4
 ```
