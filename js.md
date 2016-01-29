@@ -6,4 +6,5 @@
 odd >> 1 << 1;                              // This is how you can get a closest number divisible by 2; => even
 x === +x;                                   // Check whether x is a number.
 void anything;                              // => undefined
+Array(5).join('x')                          // Cool way to create a string "xxxxx". via https://code.google.com/archive/p/jslibs/wikis/JavascriptTips.wiki
 ```
