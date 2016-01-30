@@ -12,9 +12,9 @@ Array(5).join('x')                          // Cool way to create a string "xxxx
 ("00000000" + num).substr(-length);         // If you need to prefix number with zeros. via https://clck.ru/9hDF4
 ```
 
-## WAT!
+### WAT!
 
-### `obj.constructor`
+#### `obj.constructor`
 ```js
 var Animal = function() { console.log('Animal constructor called'); };
 var Cat =    function() { console.log('Cat constructor called'); };
