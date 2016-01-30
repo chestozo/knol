@@ -14,6 +14,16 @@ Array(5).join('x')                          // Cool way to create a string "xxxx
 
 ### WAT!
 
+### `number`
+```js
+console.log(1000000000000000128); // prints 1000000000000000100 via https://clck.ru/9hDF4
+```
+
+### `string`
+```js
+var str = '\x00\x00\x00abc'; // When printed you see 'abc' but str.length is 6! - aka null chars via https://clck.ru/9hDF4
+```
+
 #### `obj.constructor`
 ```js
 var Animal = function() { console.log('Animal constructor called'); };
@@ -51,9 +61,4 @@ var c = new C(5);
 
 console.log(b); // {a: 4, b: 8}
 console.log(c); // {a: 5, c: 15} - .b is undefined!
-```
-
-### `string`
-```js
-var str = '\x00\x00\x00abc'; // When printed you see 'abc' but str.length is 6! - aka null chars via https://clck.ru/9hDF4
 ```
