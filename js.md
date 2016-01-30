@@ -50,7 +50,7 @@ var b = new B(4);
 var c = new C(5);
 
 console.log(b); // {a: 4, b: 8}
-console.log(c); // {a: 5, c: 15}
+console.log(c); // {a: 5, c: 15} - .b is undefined!
 ```
 
 ### `string`
