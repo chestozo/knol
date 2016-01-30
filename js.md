@@ -28,6 +28,31 @@ var cat = new Cat();
 console.log(cat.constructor === Animal); // => true !!!
 ```
 
+```js
+var A = function(val) {
+    this.a = val;
+};
+
+var B = function(val) {
+    this.constructor(val);
+    this.b = val * 2;
+};
+
+var C = function(val) {
+    this.constructor(val);
+    this.c = val * 3;
+};
+
+B.prototype = new A();
+C.prototype = new B();
+
+var b = new B(4);
+var c = new C(5);
+
+console.log(b); // {a: 4, b: 8}
+console.log(c); // {a: 5, c: 15}
+```
+
 ### `string`
 ```js
 var str = '\x00\x00\x00abc'; // When printed you see 'abc' but str.length is 6! - aka null chars via https://clck.ru/9hDF4
