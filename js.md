@@ -27,3 +27,8 @@ var cat = new Cat();
 
 console.log(cat.constructor === Animal); // => true !!!
 ```
+
+### `string`
+```js
+var str = '\x00\x00\x00abc'; // When printed you see 'abc' but str.length is 6! - aka null chars via https://clck.ru/9hDF4
+```
