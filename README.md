@@ -51,7 +51,7 @@
 ###### Testing
 * qunit http://docs.jquery.com/Qunit
 * hiro http://hirojs.com/ (used by `disqus`?)
-* mocha http://visionmedia.github.com/mocha / by TJ
+* mocha http://mochajs.org/ / by TJ
 * jasmine http://pivotal.github.com/jasmine/
 * sinon `!` http://sinonjs.org/
 * sinon + qunit http://cjohansen.no/en/javascript/using_sinon_js_with_qunit
